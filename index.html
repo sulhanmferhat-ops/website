@@ -165,40 +165,7 @@
     </div>
   </section>
 
-  <!-- YORUMLAR -->
-  <section id="comments" class="section">
-    <div class="container">
-      <div class="section-header reveal">
-        <div class="section-label">Yorumlar</div>
-        <h2>Müşterilerimiz <span class="gold-text">Ne Diyor?</span></h2>
-      </div>
-      <div class="comments-grid">
-        <div class="comment-form-wrap reveal">
-          <div class="comment-form-card">
-            <h4><i class="fas fa-paper-plane"></i> Yorum Yap</h4>
-            <form id="commentForm" onsubmit="submitComment(event)">
-              <div class="form-group"><label>Adınız</label><input type="text" id="cName" placeholder="Adınızı girin" required /></div>
-              <div class="form-group">
-                <label>Puanınız</label>
-                <div class="star-input" id="starInput">
-                  <i class="fas fa-star" onclick="setRating(1)"></i>
-                  <i class="fas fa-star" onclick="setRating(2)"></i>
-                  <i class="fas fa-star" onclick="setRating(3)"></i>
-                  <i class="fas fa-star" onclick="setRating(4)"></i>
-                  <i class="fas fa-star" onclick="setRating(5)"></i>
-                </div>
-              </div>
-              <div class="form-group"><label>Yorumunuz</label><textarea id="cText" rows="4" placeholder="Deneyiminizi paylaşın..." required></textarea></div>
-              <button type="submit" class="btn btn-primary btn-full"><i class="fas fa-paper-plane"></i> Gönder</button>
-              <div class="form-success" id="formSuccess">✓ Yorumunuz için teşekkürler!</div>
-            </form>
-          </div>
-        </div>
-        <div class="comments-list" id="commentsList"></div>
-      </div>
-    </div>
-  </section>
-
+ 
   <!-- FOOTER -->
   <footer id="contact">
     <div class="footer-line"></div>

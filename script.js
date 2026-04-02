@@ -151,16 +151,6 @@ document.addEventListener('keydown', e => {
   }
 });
 
-// ── YORUMLAR ─────────────────────────────────────────────────────
-const COMMENTS_KEY = 'dicle_firat_comments';
-let currentRating = 5;
-
-function setRating(val) {
-  currentRating = val;
-  document.querySelectorAll('#starInput i').forEach((s, i) => {
-    s.style.opacity = i < val ? '1' : '0.25';
-  });
-}
 
 function loadComments() {
   try { return JSON.parse(localStorage.getItem(COMMENTS_KEY)) || []; } catch { return []; }
