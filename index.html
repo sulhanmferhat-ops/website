@@ -57,11 +57,11 @@
         <a href="https://api.whatsapp.com/send?phone=905323484209" target="_blank" class="btn btn-secondary">Destek Alın <i class="fas fa-chevron-right"></i></a>
       </div>
     </div>
-    <div class="hero-visual">
-      <div class="ring ring-1"></div>
-      <div class="ring ring-2"></div>
-      <div class="hero-card">
-        <i class="fas fa-bolt hero-icon"></i>
+
+    <!-- 3D HERO VISUAL -->
+    <div class="hero-visual" id="heroVisual3D">
+      <canvas id="hero3d-canvas"></canvas>
+      <div class="hero-3d-label">
         <div class="hero-card-title">DİCLE FIRAT ENERJİ</div>
         <div class="hero-card-sub">MÜHENDİSLİK &amp; PROJE</div>
       </div>
@@ -163,7 +163,6 @@
     </div>
   </section>
 
- 
   <!-- FOOTER -->
   <footer id="contact">
     <div class="footer-line"></div>
@@ -198,7 +197,9 @@
     <i class="fab fa-whatsapp"></i>
   </a>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   <script src="gallery_data.js"></script>
   <script src="script.js"></script>
+  <script src="hero3d.js"></script>
 </body>
 </html>
