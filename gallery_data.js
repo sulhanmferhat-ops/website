@@ -2,7 +2,7 @@
 // Yeni fotoğraf eklemek için: fotoğrafı klasöre at, aşağıya bir satır ekle.
 // Dosya adı ve etiket yaz, hepsi bu!
 
-const GALLERY_IMAGES = [
+var GALLERY_IMAGES = [
   { src: "galeri1.jpg",  label: "" },
   { src: "galeri2.jpg",  label: "" },
   { src: "galeri3.jpg",  label: "" },
