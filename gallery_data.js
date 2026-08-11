@@ -16,6 +16,6 @@ var GALLERY_IMAGES = [
   { src: "galeri12.jpg", label: "" },
   { src: "galeri13.jpg", label: "" },
   { src: "galeri14.jpg", label: "" },
-  { src: "galeri15.jpg", label: "" },
+{src:"galeri15.jpg", label: ""}
   // ↑ Buraya yeni satır ekle — fotoğrafı da klasöre koy, tamam!
 ]
