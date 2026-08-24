@@ -34,7 +34,7 @@ body::before {
   z-index: -1;
   pointer-events: none;
   background:
-    radial-gradient(ellipse at 18% 28%, rgba(38, 112, 152, 0.18), transparent 32%),
+    radial-gradient(ellipse at 18% 28%, rgba(19, 8, 234, 0.18), transparent 32%),
     radial-gradient(ellipse at 76% 20%, rgba(212, 175, 55, 0.12), transparent 24%),
     radial-gradient(ellipse at 55% 78%, rgba(31, 83, 125, 0.16), transparent 34%);
   filter: blur(28px);
